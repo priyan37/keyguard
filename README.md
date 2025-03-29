@@ -26,6 +26,12 @@ sudo apt update
 sudo apt install yara dpkg firejail python3-pip
 pip install rich
 ```
+## **Install Dependencies**  
+Make sure you have Python 3 installed. Then, install the required dependencies:  
+```bash
+pip install -r requirements.txt
+```
+(Update `requirements.txt` with the necessary dependencies before running the above command.)
 
 ---
 
@@ -34,7 +40,7 @@ pip install rich
 Run the scanner using:  
 
 ```bash
-python3 keylogger_scanner.py
+sudo python3 keylogger_scanner.py
 ```
 
 Then select one of the available options:  
