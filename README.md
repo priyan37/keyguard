@@ -23,6 +23,8 @@ Ensure the following dependencies are installed before running the scanner:
 
 ```bash
 sudo apt update
+git clone https://github.com/priyan37/keyguard.git
+cd keyguard
 sudo apt install yara dpkg firejail python3-pip
 pip install rich
 ```
